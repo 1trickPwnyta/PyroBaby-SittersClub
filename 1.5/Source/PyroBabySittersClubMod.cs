@@ -1,14 +1,14 @@
 using HarmonyLib;
 using Verse;
 
-namespace PyroBaby-SittersClub
+namespace PyroBabySittersClub
 {
-    public class PyroBaby-SittersClubMod : Mod
+    public class PyroBabySittersClubMod : Mod
     {
-        public const string PACKAGE_ID = "pyrobaby-sittersclub.1trickPwnyta";
+        public const string PACKAGE_ID = "pyrobabysittersclub.1trickPwnyta";
         public const string PACKAGE_NAME = "Pyro Baby-Sitters Club";
 
-        public PyroBaby-SittersClubMod(ModContentPack content) : base(content)
+        public PyroBabySittersClubMod(ModContentPack content) : base(content)
         {
             var harmony = new Harmony(PACKAGE_ID);
             harmony.PatchAll();
