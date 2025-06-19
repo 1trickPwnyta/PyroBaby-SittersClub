@@ -3,11 +3,16 @@
 	<name>Pyro Baby-Sitters Club</name>
 	<author>1trickPwnyta</author>
 	<packageId>pyrobabysittersclub.1trickPwnyta</packageId>
+	<modVersion>1.1.0</modVersion>
 	<supportedVersions>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>
-When a pyromaniac decides to commit arson in the nursery during baby's tummy time adventures, you might need the services of a babysitter. Not for the baby, but for the pyromaniac. Simply select a firefighting-capable colonist, right-click the pyromaniac while in an active fire-starting spree, and select "babysit pyro". Your colonist will follow them around, putting out any fires they start, until the spree is over.
+When a pyromaniac decides to commit arson in the nursery during baby's tummy time adventures, you might need the services of a babysitter. Not for the baby, but for the pyromaniac. Simply select a firefighting-capable colonist, mech, or ghoul, right-click the pyromaniac while in an active fire-starting spree, and select "babysit pyro". Your colonist will follow them around, putting out any fires they start, until the spree is over.
+
+=== Updates ===
+06/18/2025: Update to 1.6, allow mechs and ghouls to babysit pyros, allow selecting multiple pawns and commanding them to babysit the same target in one click
 
 === Credits ===
 Mod icon: twitter.com/mouse_draws
