@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/MutantDef[defName="Ghoul"]/whitelistedFloatMenuProviders</xpath>
-		<value>
-			<li>PyroBabySittersClub.FloatMenuOptionProvider_BabysitPyro</li>
-		</value>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd" MayRequire="Ludeon.RimWorld.Anomaly">
+				<xpath>/Defs/MutantDef[defName="Ghoul"]/whitelistedFloatMenuProviders</xpath>
+				<value>
+					<li>PyroBabySittersClub.FloatMenuOptionProvider_BabysitPyro</li>
+				</value>
+			</li>
+		</operations>
 	</Operation>
 </Patch>
